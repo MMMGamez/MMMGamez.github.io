@@ -1,0 +1,23 @@
+<footer id="footer">
+
+  <ul class="icons">
+  {% if site.twitter_username %}
+    <li>
+      <a href="https://twitter.com/{{ site.twitter_username }}" class="icon circle fa-twitter"><span class="label">Twitter</span></a>
+    </li>
+  {% endif %}
+  {% if site.twitter_username %}
+    <li>
+      <a href="https://www.facebook.com/mmmgamez" class="icon circle fa-facebook"><span class="label">Facebook</span></a>
+    </li>
+  {% endif %}
+  {% if site.github_username %}
+    <li>
+      <a href="https://github.com/{{ site.github_username }}" class="icon circle fa-github"><span class="label">Github</span></a>
+    </li>
+  {% endif %}
+  </ul>
+
+  <span class="copyright">&copy; {{ site.copyright }}. All rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+
+</footer>

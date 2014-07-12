@@ -1,0 +1,21 @@
+/* Banner */
+/* line 6, ../../sass/ie/v8.scss */
+#banner {
+  background-image: url("../../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-behavior: url("css/ie/backgroundsize.min.htc");
+}
+/* line 12, ../../sass/ie/v8.scss */
+#banner .inner {
+  background: #341b2b;
+}
+
+/* CTA  */
+/* line 19, ../../sass/ie/v8.scss */
+#cta {
+  background-image: url("../../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-behavior: url("css/ie/backgroundsize.min.htc");
+}
