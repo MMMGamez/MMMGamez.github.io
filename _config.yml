@@ -8,6 +8,11 @@ twitter_username: mmmgamez
 github_username:  mmmgamez
 copyright: 2014
 
+# Collections
+collections:
+-  members
+-  products
+
 # Build settings
 markdown: kramdown
 permalink: pretty

@@ -1167,3 +1167,9 @@ body.index #main {
   display: inline-block;
   width: 5em;
 }
+
+/* line 991, ../sass/style.scss */
+.member img {
+  border-radius: 1200px;
+  border: thick solid white;
+}
