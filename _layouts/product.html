@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<!-- Main -->
+<article id="main" class="product">
+
+  <header class="special container">
+    <span class="icon fa-mobile"></span>
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.tagline }}
+  </header>
+    
+  <!-- One -->
+    <section class="wrapper style4 container">
+    
+      <!-- Content -->
+        <div class="content">
+          <section>
+            <img src="{{ page.picture }}" alt="" />
+            <p>
+              {{ page.content }}
+            </p>
+          </section>
+        </div>
+
+    </section>
+
+</article>
+
+{% include cta.html %}

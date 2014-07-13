@@ -66,17 +66,21 @@ layout: default
       </header>
 
       <div class="row">
+        {% for product in site.products %}
         <div class="6u">
 
           <section>
-            <a href="no-sidebar.html" class="image feature"><img src="images/pic01.jpg" alt="" /></a>
+            <a href="{{ product.url | prepend: site.baseurl }}" class="image feature">
+              <img src="{{ product.picture }}" alt="" />
+            </a>
             <header>
-              <h3>Shooty Jumpy Boy</h3>
+              <h3>{{ product.title }}</h3>
             </header>
-            <p>Inspired by the classic MegaMan series, this endless runner will challenge your resillience</p>
+            <p>{{ product.tagline }}</p>
           </section>
 
         </div>
+        {% endfor %}
       </div>
       <footer class="major">
         <ul class="buttons">

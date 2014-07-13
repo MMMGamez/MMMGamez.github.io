@@ -10,8 +10,10 @@ copyright: 2014
 
 # Collections
 collections:
--  members
--  products
+  members:
+    foo: bar
+  products:
+    output: true
 
 # Build settings
 markdown: kramdown

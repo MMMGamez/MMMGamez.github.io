@@ -1173,3 +1173,8 @@ body.index #main {
   border-radius: 1200px;
   border: thick solid white;
 }
+
+/* line 998, ../sass/style.scss */
+.product img {
+  width: 100%;
+}
